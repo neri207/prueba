@@ -1,7 +1,10 @@
 ---
 
-- name:
+- name: "Validación EDR"
 
-  host:
+  host: localhost
 
-  task:
+  task: 
+    - name: Hola mundo
+      ansible.builtin.debug:
+        msg: 'Hola mundo!'
